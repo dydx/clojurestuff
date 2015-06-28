@@ -2,11 +2,9 @@
   (:gen-class))
 
 (defn -main [& args]
-  (println (if true
-    (do (println "Success!")
-      "abra cadabra")
-    (do (println "Failure :(")
-      "hocus pocus"))))
+  (println (when true?
+    (println "Success!")
+    "abra cadabra")))
 
 ; => Success!
 ; => abra cadabra
