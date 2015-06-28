@@ -6,5 +6,8 @@
     (println "Success!")
     "abra cadabra")))
 
-; => Success!
-; => abra cadabra
+
+(def failed-protagonist-names
+  ["Larry Potter"
+   "Doreen the Explorer"
+   "The Incredible Bulk"])
