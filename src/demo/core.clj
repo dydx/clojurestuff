@@ -1,7 +1,9 @@
 (ns demo.core
   (:gen-class))
 
-(defn -main
-  "I don't do a whole lot... yet."
-  [& args]
-  (println "Hello, World!"))
+(defn -main [& args]
+  (if true
+    (do (println "Success!")
+      "abra cadabra")
+    (do (println "Failure :(")
+      "hocus pocus")))
